@@ -5,37 +5,48 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="_css/landing.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
 
 	
 <header id="header">
-	<img src="http://geraldpetersonjr.com/ProductLandingPage/_images/bolt_action_logo.JPG" id="header-img"></img>
-	<nav id="nav-bar">
-		<ul>
-			<li><a href="#details" class="nav-link">Game Details</a></li>
-			<li><a href="#play" class="nav-link">How to Play</a></li>
-			<li><a href="#pricing" class="nav-link">Pricing</a></li>
+	<div id="header-left">
+		<img src="http://geraldpetersonjr.com/ProductLandingPage/_images/bolt_action_logo.JPG" id="header-img"></img>
+	</div>
+	<div id="header-right"> 
+		<nav id="nav-bar">
+			<ul>
+				<li><a href="#details" class="nav-link">Game Details</a></li>
+				<li><a href="#play" class="nav-link">How to Play</a></li>
+				<li><a href="#pricing" class="nav-link">Game Pieces</a></li>
 
-		</ul>
-	</nav>
+			</ul>
+		</nav>
+	</div>
 </header>
 
 <main>
 	<br><br>
 	<div id="form-div">
 		<form id="form" action="https://www.freecodecamp.com/email-submit">
+		<p id="suscribe">Subscribe to the mailing list below:</p>
 			<input type="email" class="input-field" id="email" name="email" placeholder="Enter your email" >
 			<input type="submit" id="submit" value="Submit">
 		</form>
 	</div>
-	
-	<div id="details">
-		<p> Details about the game go here</p>
+	<div id="details-container">
+		<div id="details">
+			<p>Bolt Action is the leading 28mm World War II tabletop wargame, using miniature soldiers, 
+			   tanks and terrain to fight battles in the shattered towns of occupied France, the frozen steppes of 
+			   Russia or even the sweltering jungles of the Pacific.</p>
+			<p>This is a fun game that can be played with a couple of people, to a small grouping or even solo as some
+				individuals have ventured into creating their own rules.  No matter how you play it, Bolt Action is a fun game
+				for all ages.</p>
+		</div>
 	</div>
-
 	<div id="play">
-		<p>Here are a couple short videos on the game of Bolt Action and how to play it:</p>
+		<p>Here is a short video on the game of Bolt Action and how to play it:</p>
 		<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/KWFULLINyh8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		<!-- <iframe id="video2"width="560" height="315" src="https://www.youtube.com/embed/v9y_9jf-Yqs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
 		
