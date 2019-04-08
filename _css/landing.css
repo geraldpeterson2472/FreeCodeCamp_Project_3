@@ -1,48 +1,71 @@
 html, body {
+	background-color: #828f64;
+	padding-top: 100px;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+
+@media (max-height: 800px) {
+	body{
+		font-size: .7em;
+	}
 	
 }
 main {
-	margin: 5%;
+	margin: 2%;
+	padding: 0;
 	clear: both;
 }
 
 #header {
-	margin: 5%;
+	overflow: hidden;
+	position: fixed;
+	float: left;
+	top: 0;
+	margin-left: 2%;
 	background-color: #000000;
 	display: flex;
+
 }
+
+#header-left{
+	background-color: yellow;
+	display: inline-block;
+	width: 50%;
+	
+}
+
+
 
 #header-img {
 	max-width: 100%;
 	display: block;
+	width: 100%;
 	height: auto;
-	
-	/*width: 50%;
-	height: 50%;*/
 }
 
 #nav-bar {
-	
+	overflow: hidden;
+	position: fixed;
+	float: right;
+	top: 0;
 	width: 50%;
-	height: 50%;
+	margin-top: 0;
+	margin-left: 15%;
+	text-align: center;
+	/*height: 50%;*/
 }
 
-/*
-#video1, #video2 {
-	max-width: 100%;
-	display: block;
-	height: auto;
-}
-*/
+
 
 header li {
 	list-style-type: none;
 }
 
 header li a {
-	float: left;
+	float: right;
 	display: block;
-	padding: 8px;
+	padding: 1%;
 	background-color: #dddddd;
 	width: 30%;
 	text-align: center;
@@ -61,6 +84,31 @@ header li a:hover {
 #div-header-img {
 	display: inline-block;
 }
+#form, #play {
+	text-align: center;
+	display: inline-block;
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+	
+	
+}
+#form, #form-div, #play, #details , main{
+	background-color: #6b8e23;
+}
+#details {
+	margin: 15% 5% 5% 5%;
+	padding-top: 10%;
+}
+
+#play, #pricing, #details {
+	margin-top: 5%;
+
+
+}
+#play, #details {
+	padding-top: 10%;
+}
 
 iframe {
 	clear: both;
@@ -75,7 +123,7 @@ iframe {
 
 
 .pricing-wrapper {
-	border: 1px solid #000;
+	border: 3px solid #000;
 	background-color: #6b8e23;
 	display: grid;
 	grid-template-columns: 1fr;
@@ -102,10 +150,10 @@ iframe {
 	text-align: center;
 }
 
-.pricing-img {
 
-}
 
 footer {
 	clear: both;
+	text-align:center;
+	font-size: .5em;
 }
